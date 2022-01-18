@@ -77,15 +77,16 @@ namespace AporteBuilder
                   "\nPrecio: " + precio +
                   "\n--------------------" +
                   "\nCOMPONENTES" +
-                  "\nPlaca Base: " + placabase.MarcaPlaca + "Modelo: " + placabase.ModeloPlaca +
-                  "\nProcesador: " + procesador.MarcaCpu + "Modelo: " + procesador.ModeloCpu +
-                  "\nMemoria Ram: " + ram.MarcaRam + "Frecuencia: " + ram.Frecuencia + "Capacidad: " + ram.CapacidadRam +
-                  "\nAlmacenamiento: " + almacenamiento.MarcaAlm + "Tipo: " + almacenamiento.TipoAlm + "Capacidad: " + almacenamiento.CapacidadAlm +
-                  "\nTarjeta Gráfica: " + grafica.MarcaGpu + "Modelo: " + grafica.ModeloGpu +
-                  "\nRefrigeración: " + cooler.MarcaCool + "Modelo: " + cooler.ModeloCool + "Tipo: " + cooler.TipoCool +
-                  "\nFuente de energía: " + fuente.MarcaFuente + "Certificación: " + fuente.Certificacion +
-                  "\nCaja: " + caja.MarcaCaja + "Modelo: " + caja.ModeloCaja +
-                  "\n--------------------";
+                  "\nPlaca Base: " + placabase.MarcaPlaca + " Modelo: " + placabase.ModeloPlaca +
+                  "\nProcesador: " + procesador.MarcaCpu + " Modelo: " + procesador.ModeloCpu +
+                  "\nMemoria Ram: " + ram.MarcaRam + " Frecuencia: " + ram.Frecuencia + " Capacidad: " + ram.CapacidadRam +
+                  "\nAlmacenamiento: " + almacenamiento.MarcaAlm + " Tipo: " + almacenamiento.TipoAlm + " Capacidad: " + almacenamiento.CapacidadAlm +
+                  "\nTarjeta Gráfica: " + grafica.MarcaGpu + " Modelo: " + grafica.ModeloGpu +
+                  "\nRefrigeración: " + cooler.MarcaCool + " Modelo: " + cooler.ModeloCool + " Tipo: " + cooler.TipoCool +
+                  "\nFuente de energía: " + fuente.MarcaFuente + " Certificación: " + fuente.Certificacion +
+                  "\nCaja: " + caja.MarcaCaja + " Modelo: " + caja.ModeloCaja +
+                  "\n--------------------"+
+                  "\nGRACIAS POR SU COMPRA";
                    
         }
 

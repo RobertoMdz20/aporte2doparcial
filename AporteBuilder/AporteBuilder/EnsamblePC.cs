@@ -25,55 +25,55 @@ namespace AporteBuilder
             return this;
         }
 
-        public EnsamblePC Precio(double precio)
+        public EnsamblePC PrecioFinal(double precio)
         {
             this.precio = precio;
             return this;
         }
 
-        public EnsamblePC PlacaBase(PlacaBase placabase)
+        public EnsamblePC LaPlacaBase(PlacaBase placabase)
         {
             this.placabase = placabase;
             return this;
         }
 
-        public EnsamblePC Cpu(Cpu procesador)
+        public EnsamblePC ElCpu(Cpu procesador)
         {
             this.procesador = procesador;
             return this; 
         }
         
-        public EnsamblePC Ram(Ram ram)
+        public EnsamblePC LaRam(Ram ram)
         {
             this.ram = ram;
             return this;
         }
 
-        public EnsamblePC Almacenamiento(Almacenamiento almacenamiento)
+        public EnsamblePC ElAlmacenamiento(Almacenamiento almacenamiento)
         {
             this.almacenamiento = almacenamiento;
             return this;
         }
 
-        public EnsamblePC Gpu(Gpu grafica)
+        public EnsamblePC LaGpu(Gpu grafica)
         {
             this.grafica = grafica;
             return this;
         }
 
-        public EnsamblePC Refrigeracion(Refrigeracion cooler)
+        public EnsamblePC LaRefrigeracion(Refrigeracion cooler)
         {
             this.cooler = cooler;
             return this;
         }
 
-        public EnsamblePC FuenteEnergia(FuenteEnergia fuente)
+        public EnsamblePC LaFuenteEnergia(FuenteEnergia fuente)
         {
             this.fuente = fuente;
             return this;
         }
 
-        public EnsamblePC Caja(Caja caja)
+        public EnsamblePC LaCaja(Caja caja)
         {
             this.caja = caja;
             return this;

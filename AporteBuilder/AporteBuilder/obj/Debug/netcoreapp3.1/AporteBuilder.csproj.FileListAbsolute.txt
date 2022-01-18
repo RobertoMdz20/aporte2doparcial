@@ -1,0 +1,14 @@
+C:\Users\RobertoAlejandro\Source\Repos\RobertoMdz20\aporte2doparcial\AporteBuilder\AporteBuilder\bin\Debug\netcoreapp3.1\AporteBuilder.exe
+C:\Users\RobertoAlejandro\Source\Repos\RobertoMdz20\aporte2doparcial\AporteBuilder\AporteBuilder\bin\Debug\netcoreapp3.1\AporteBuilder.deps.json
+C:\Users\RobertoAlejandro\Source\Repos\RobertoMdz20\aporte2doparcial\AporteBuilder\AporteBuilder\bin\Debug\netcoreapp3.1\AporteBuilder.runtimeconfig.json
+C:\Users\RobertoAlejandro\Source\Repos\RobertoMdz20\aporte2doparcial\AporteBuilder\AporteBuilder\bin\Debug\netcoreapp3.1\AporteBuilder.runtimeconfig.dev.json
+C:\Users\RobertoAlejandro\Source\Repos\RobertoMdz20\aporte2doparcial\AporteBuilder\AporteBuilder\bin\Debug\netcoreapp3.1\AporteBuilder.dll
+C:\Users\RobertoAlejandro\Source\Repos\RobertoMdz20\aporte2doparcial\AporteBuilder\AporteBuilder\bin\Debug\netcoreapp3.1\AporteBuilder.pdb
+C:\Users\RobertoAlejandro\Source\Repos\RobertoMdz20\aporte2doparcial\AporteBuilder\AporteBuilder\obj\Debug\netcoreapp3.1\AporteBuilder.csproj.AssemblyReference.cache
+C:\Users\RobertoAlejandro\Source\Repos\RobertoMdz20\aporte2doparcial\AporteBuilder\AporteBuilder\obj\Debug\netcoreapp3.1\AporteBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RobertoAlejandro\Source\Repos\RobertoMdz20\aporte2doparcial\AporteBuilder\AporteBuilder\obj\Debug\netcoreapp3.1\AporteBuilder.AssemblyInfoInputs.cache
+C:\Users\RobertoAlejandro\Source\Repos\RobertoMdz20\aporte2doparcial\AporteBuilder\AporteBuilder\obj\Debug\netcoreapp3.1\AporteBuilder.AssemblyInfo.cs
+C:\Users\RobertoAlejandro\Source\Repos\RobertoMdz20\aporte2doparcial\AporteBuilder\AporteBuilder\obj\Debug\netcoreapp3.1\AporteBuilder.csproj.CoreCompileInputs.cache
+C:\Users\RobertoAlejandro\Source\Repos\RobertoMdz20\aporte2doparcial\AporteBuilder\AporteBuilder\obj\Debug\netcoreapp3.1\AporteBuilder.dll
+C:\Users\RobertoAlejandro\Source\Repos\RobertoMdz20\aporte2doparcial\AporteBuilder\AporteBuilder\obj\Debug\netcoreapp3.1\AporteBuilder.pdb
+C:\Users\RobertoAlejandro\Source\Repos\RobertoMdz20\aporte2doparcial\AporteBuilder\AporteBuilder\obj\Debug\netcoreapp3.1\AporteBuilder.genruntimeconfig.cache

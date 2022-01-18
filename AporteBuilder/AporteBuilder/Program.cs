@@ -47,38 +47,79 @@ namespace AporteBuilder
 
             Console.Write("Ingrese el nombre del cliente: ");
             nombre = Console.ReadLine();
-            Console.Write("Ingrese el precio del nuevo material: ");
+            Console.Write("Ingrese el precio final del pc: ");
             precio = Convert.ToDouble(Console.ReadLine());
+            
             Console.Write("Ingrese la marca de placa base: ");
             marcaplaca = Console.ReadLine();
             Console.Write("Ingrese el modelo de placa base: ");
             modeloplaca = Console.ReadLine();
+            placabase = new PlacaBase(marcaplaca, modeloplaca);
+
             Console.Write("Ingrese la marca del procesador: ");
             marcacpu = Console.ReadLine();
             Console.Write("Ingrese el modelo del procesador: ");
-            modelocpu = Console.ReadLine();
+            modelocpu = Console.ReadLine();           
+            procesador = new Cpu(marcacpu, modelocpu);
+            
             Console.Write("Ingrese la marca de la ram: ");
             marcaram = Console.ReadLine();
-            Console.Write("Ingrese la frecuencia de la ram ");
+            Console.Write("Ingrese la frecuencia de la ram: ");
             frecuencia = Console.ReadLine();
-            Console.Write("Ingrese la capacidad e la ram ");
+            Console.Write("Ingrese la capacidad e la ram: ");
             capacidadram = Console.ReadLine();
+            ram = new Ram(marcaram, frecuencia, capacidadram);
 
+            Console.Write("Ingrese la marca del almacenamiento: ");
+            marcaalm = Console.ReadLine();
+            Console.Write("Ingrese el tipo de almacenamiento: ");
+            tipoalm = Console.ReadLine();
+            Console.Write("Ingrese la capacidad de almacenamiento: ");
+            capacidadalm = Console.ReadLine();
+            almacenamiento = new Almacenamiento(marcaalm, tipoalm, capacidadalm);
+
+            Console.Write("Ingrese la marca de la tarjeta gráfica: ");
+            marcagpu = Console.ReadLine();
+            Console.Write("Ingrese el modelo de la tarjeta gráfica:");
+            modelogpu = Console.ReadLine();
+            grafica = new Gpu(marcagpu, modelogpu);
+
+            Console.Write("Ingrese la marca de de la refrigeración: ");
+            marcacool = Console.ReadLine();
+            Console.Write("Ingrese el modelo de la refrigeración:");
+            modelocool = Console.ReadLine();
+            Console.Write("Ingrese el tipo de refrigeración: ");
+            tipocool = Console.ReadLine();
+            cooler = new Refrigeracion(marcacool, tipocool, modelocool);
+
+            Console.Write("Ingrese la marca de la fuente de alimentación:");
+            marcafuente = Console.ReadLine();
+            Console.Write("Ingrese la certificación de la fuente:");
+            certificacion = Console.ReadLine();
+            fuente = new FuenteEnergia(marcafuente, certificacion);
+
+            Console.Write("Ingrese la marca de la caja:");
+            marcacaja = Console.ReadLine();
+            Console.Write("Ingrese el modelo de la caja:");
+            modelocaja = Console.ReadLine();
+            caja = new Caja(marcacaja, modelocaja);
+
+            Console.Clear();
 
             EnsamblePC builderensamblePC = new EnsamblePC();
-            Ensamblado ensamblado = builderensamblePC
+            Ensamblado ensamblador = builderensamblePC
                 .NombreCliente(nombre)
-                .Precio(precio)
-                .PlacaBase(placabase)
-                .Cpu(procesador)
-                .Ram(ram)
-                .Almacenamiento(almacenamiento)
-                .Gpu(grafica)
-                .Refrigeracion(cooler)
-                .FuenteEnergia(fuente)
-                .Caja(caja)
+                .PrecioFinal(precio)
+                .LaPlacaBase(placabase)
+                .ElCpu(procesador)
+                .LaRam(ram)
+                .ElAlmacenamiento(almacenamiento)
+                .LaGpu(grafica)
+                .LaRefrigeracion(cooler)
+                .LaFuenteEnergia(fuente)
+                .LaCaja(caja)
                 .BuildEnsamblado();
-            Console.WriteLine(ensamblado.Mostrar());
+            Console.WriteLine(ensamblador.Mostrar());
             Console.ReadKey();
 
         }
